@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  color: #f9f9f9;
+}
+
+body {
+  background: #161616;
+  opacity: 0.95;
+}
+
+#topo {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.menu {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.menu a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem 0 2rem;
+  margin-top: 3.5rem;
+
+  font-weight: 700;
+}
+
+span {
+  font-size: 1.75rem;
+}
+
+#skill {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.banner h1 {
+  color: #6709fa;
+  font-size: 3.25rem;
+}
+
+.linhas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.linhas hr {
+    border: 0;
+    width: 98%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, #525252, transparent);
+
+    margin-top: 4rem;
+}
+
+.section {
+    margin-top: 1.25rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+#sobre span {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.cards {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  background: #212121;
+  border: 1px solid #333;
+  width: 9.375rem;
+  height: 9.375rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
